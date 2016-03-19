@@ -12,3 +12,7 @@ what does each program do?
 2 do the exercise privided by the book C Programming A Modern Approach to print 7-sigments digital.
 
 3 As 2 does, print 7-sigments digital as the way the book mentioned.better edition.
+
+4 quiksort in C.(PS:I do find Data Struct is awesome)
+
+5 palindrome.Sovle the problem by sevral parts(functions).
