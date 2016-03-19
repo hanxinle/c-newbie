@@ -2,6 +2,7 @@
 begin to learn C 
 
 .................................................................................................................................
+
 what does each program do?
 
 0 the poiter shocked me 5 years ago. So i run it.
