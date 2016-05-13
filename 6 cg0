@@ -1,7 +1,6 @@
 #include <gl/glut.h>
 #include <math.h>
-//#include <iostream>                                //for test  
-//#include <stdio.h>
+
 #define PI 3.14159
 #define RzArgu -90*PI/180     
 
