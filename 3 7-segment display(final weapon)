@@ -47,6 +47,7 @@ void process_digit(int digit,int position);
 void print_digits_array(void);
 
 int main(void)  {
+
 	clear_digits_array();
 	int digit;
 	int position = -4;
@@ -80,7 +81,7 @@ void clear_digits_array(void)  {
 void process_digit(int digit, int position)  {
 	/************************************************************************************************
 	//*注释的代码需要借助qiduanma数组来初始化显示的内容，尽量不借助外部数组来完成程序的功能*
-	for (int i = 0; i < 7; i++) {
+	for (int i = 0; i < 7; i++)  {
 	qiduanma[i] = segments[digit][i];
 	(qiduanma[0] == 1) ? digits[0][position + 1] = '_' : digits[0][position + 1] = ' ';
 	(qiduanma[1] == 1) ? digits[1][position + 2] = '|' : digits[1][position + 2] = ' ';
@@ -105,15 +106,12 @@ void process_digit(int digit, int position)  {
 			case 6: digits[1][position + 1] = '_'; break;
 			}
 		}
-
 	}
 }
 
 void print_digits_array(void)  {
-
 	for (int i = 0; i < 3; i++)
 		for (int j = 0; j < 40; j++)  {
-
 		printf("%c", digits[i][j]);
 		if (j == 39) printf("\n");
 		}
