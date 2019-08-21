@@ -1,11 +1,11 @@
-# C_Beginner
-begin to learn C 
+# 初学C语言时的代码
+ 
 
 .................................................................................................................................
 
-what does each program do?
+程序说明：
 
-0 the poiter shocked me 5 years ago. So i run it.
+0 the poiter shocked me 5 years ago.
 
 1 swap two int has 2 ways.
 
